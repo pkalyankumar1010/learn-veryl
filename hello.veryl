@@ -1,0 +1,18 @@
+/// Documentation comment written by Markdown
+///
+/// * list
+/// * list
+/// 
+/// ```wavedrom
+/// { signal: [
+///  { name: "clk",  wave: "P......" },
+///  { name: "bus",  wave: "x.==.=x", data: ["head", "body", "tail", "data"] },
+///  { name: "wire", wave: "0.1..0." }
+///]}
+/// ```
+module ModuleA (
+    input logic i_clk,
+    input logic i_rst_n
+){
+
+}
